@@ -17,5 +17,18 @@ public class Main {
         long LongValue = 100L; // Have to use this for values which are not ints - Java will be default treat this as an int.
         long LongerValue = 2_147_483_647_234L;
         System.out.println(LongerValue);
+
+        // Type Casting Exercise
+        // Unless we are declaring literals, Java at compile time will struggle to evaluate the expression
+        // Java type casts values to Integers by default - Unless we have a compelling reason, we should always use Int's
+        byte minByte = Byte.MIN_VALUE;
+        // byte myNewByteValue = (minByte / 2); // This throws an error because the byte expression is treated as an integer
+        byte myNewByteValue = (byte) (minByte / 2); // By adding the byte,
+
+        // Summation across Types exercise
+        byte byteVal = 90;
+        short shortVal = 2000;
+        int intVal = 500000;
+        long longVal = 50000 + intVal + shortVal + byteVal;
     }
 }
