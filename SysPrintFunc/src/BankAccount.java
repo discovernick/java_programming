@@ -8,7 +8,18 @@ public class BankAccount {
 
     // Constructor
     public BankAccount() {
+        this("Default", 0, "Default", "Default","Default");
+        // The this statement with parameters need to be the first line called in the no-args constructor.
         System.out.println("Empty Constructor Called");
+    }
+
+    public BankAccount(String acctNumber, double balance, String customerName, String email, String phone) {
+        this.acctNumber = acctNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phone = phone;
+        System.out.println("Successfully created new Bank Account");
     }
 
     // Special Methods
