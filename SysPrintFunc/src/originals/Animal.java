@@ -1,3 +1,5 @@
+package originals;
+
 public class Animal {
     protected String type;
     private String size;
@@ -17,7 +19,7 @@ public class Animal {
     // To String Method
     @Override
     public String toString() {
-        return "Animal{" +
+        return "originals.Animal{" +
                 "type='" + type + '\'' +
                 ", size='" + size + '\'' +
                 ", weight=" + weight +

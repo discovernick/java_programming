@@ -1,3 +1,5 @@
+package originals;
+
 public class Student {
     private String id;
     private String name;
@@ -13,7 +15,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "originals.Student{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
                 ", dateOfBirth='" + dateOfBirth + '\'' +

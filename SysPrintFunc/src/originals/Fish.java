@@ -1,3 +1,5 @@
+package originals;
+
 public class Fish extends Animal {
     private int gills;
     private int fins;
@@ -28,7 +30,7 @@ public class Fish extends Animal {
 
     @Override
     public String toString() {
-        return "Fish{" +
+        return "originals.Fish{" +
                 "gills=" + gills +
                 ", fins=" + fins +
                 "} " + super.toString();

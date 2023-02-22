@@ -1,3 +1,5 @@
+package originals;
+
 import java.util.Scanner;
 
 public class UserInputChallenge {

@@ -1,3 +1,5 @@
+package originals;
+
 import sun.awt.windows.WPrinterJob;
 
 public class SectionFive {
@@ -29,7 +31,7 @@ public class SectionFive {
     }
 
     public static int calculateScore(String playerName, int score) {
-        System.out.println("Player: " + playerName + " scored" + score);
+        System.out.println("originals.Player: " + playerName + " scored" + score);
         return score*1000;
     }
 

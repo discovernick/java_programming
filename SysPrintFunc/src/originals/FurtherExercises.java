@@ -1,3 +1,5 @@
+package originals;
+
 public class FurtherExercises {
     public static void main(String[] args) {
         boolean isTrue = true;

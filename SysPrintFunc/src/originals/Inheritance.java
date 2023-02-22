@@ -1,6 +1,8 @@
+package originals;
+
 public class Inheritance {
     public static void main(String[] args) {
-        Animal animal = new Animal("Generic Animal", "Huge", 400);
+        Animal animal = new Animal("Generic originals.Animal", "Huge", 400);
         doAnimalStuff(animal, "slow");
 
         Dog dog = new Dog();

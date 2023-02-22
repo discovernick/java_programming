@@ -1,3 +1,5 @@
+package originals;
+
 public class Dog extends Animal {
     private String earShape;
     private String tailShape;
@@ -58,7 +60,7 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "originals.Dog{" +
                 "earShape='" + earShape + '\'' +
                 ", tailShape='" + tailShape + '\'' +
                 "} " + super.toString();
